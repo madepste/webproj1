@@ -165,7 +165,15 @@ h6{
 	height:338px;
 	width:338px;
 	padding:9px;
-	margin:10px;
+	margin-left:auto;
+	margin-right:auto;
+
+}
+
+#facebook_bar{
+	margin-left:auto;
+	margin-right:auto;
+	padding:9px;
 
 }
 
@@ -221,6 +229,31 @@ td {
 	text-align:left;
 }
 
+/*#container{
+	margin-left:auto;
+	margin-right:auto;
+	width:750px;
+	padding:5px;
+
+}
+
+#container p{
+	clear:both;
+
+}
+
+#container p.main{
+	float:left 
+	width: 400px;
+
+}
+
+#container p.sidelist{
+	padding-left: 10px;
+	width: 260px;
+
+
+}*/
 /* ==========================================================================
    Helper classes
    ========================================================================== */
