@@ -99,7 +99,7 @@ textarea {
 	margin-right: auto;
 	font-size: 20px;
 	line-height: 30px;
-	font-family: Myriad Pro;
+	font-family: Helvetica;
 }
 
 h1{
@@ -126,8 +126,6 @@ h6{
 	padding-left:31px;
 	padding-right:31px;
 	text-align:justify;
-	float: left;
-
 
 }
 
@@ -145,13 +143,6 @@ h6{
 #menu ul {
 	margin-left:335px;
 	margin-top:0px;
-
-}
-
-
-#footer{
-	clear: both;
-
 
 }
 
@@ -183,16 +174,26 @@ h6{
 
 }
 
-#article_heading h6{
+.heading2{
+	font-size:16px;
 	margin:0px;
-	font-color:#3f8252;
-	text-align: center;
+	color:#5d5d5d;
+	
 }
 
-#article_body {
-	float: left;
+.heading3{
+	font-size:14px;
+	margin:0px;
+	color:#3f8252;
+	padding:9px;	
 
 }
+
+#article_body{
+	clear:both;
+
+}
+
 #heating_content{
 	background-color: #eef1f5;
 	padding:9px;
@@ -213,12 +214,14 @@ p{
 }
 
 #heating_photos{
+	display:block;
 	margin-left:auto;
 	margin-right:auto;
 	padding:9px;
 }
 
-#cooling_content{
+#cooling_photos{
+	display:block;
 	padding:9px;
 	margin-right:auto;
 	margin-left:auto;
@@ -234,8 +237,9 @@ p{
 }
 
 #logo{
-	width:86px;
+	width:898px;
 	height:86px;
+	padding:9px;
 
 }
 
@@ -283,22 +287,27 @@ td {
 }*/
 
 #content_table{
-	margin-left:auto;
-	margin-right:auto;
+	width:750px;
+	clear:both;
 	padding:9px;
 
 }
 #footer{
 	background-color:#eef1f5;
 	padding:9px;
-	margin-left:auto;
-	margin-right:auto;
+	clear:both;
+	
 }
 
 .about{
 	font-size:30px;
 	margin:0px;
 	text-align:center;
+}
+
+#footer_photo{
+	width:898px;
+
 }
 
 
