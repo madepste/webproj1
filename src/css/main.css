@@ -99,7 +99,7 @@ textarea {
 	margin-right: auto;
 	font-size: 20px;
 	line-height: 30px;
-
+	font-family: Myriad Pro;
 }
 
 h1{
@@ -132,13 +132,14 @@ h6{
 }
 
 #menu{
-	background-image:
+	background-color:#3f8252;
 
 }
 
 #menu a{
 	color:white;
-
+	text-decoration: none;	
+	font-size: 14px;
 }
 
 #menu ul {
@@ -147,10 +148,6 @@ h6{
 
 }
 
-#sidebar{
-	float:left;
-
-}
 
 #footer{
 	clear: both;
@@ -174,9 +171,33 @@ h6{
 
 #article_heading h1{
 	margin:0px;
+	text-align: center;
 
 }
 
+#article_heading h6{
+	margin:0px;
+	font-color:#3f8252;
+	text-align: center;
+}
+
+#article_body {
+	float: left;
+
+}
+
+p.first{
+	font-size:14px;
+	margin:0px;
+	font-weight:bold;
+
+}
+
+p{
+	font-size:14px;
+	margin:0px;
+
+}
 #logo{
 	width:86px;
 	height:86px;
@@ -191,12 +212,15 @@ h6{
 
 #menu li{
 	margin:0px;
-
-}
-
-#menu li{
 	display: inline;
+
 }
+
+td {
+	font-size:14px;
+	text-align:left;
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
